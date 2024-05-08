@@ -25,9 +25,8 @@ pluralizelisttitles = false # removes the automatically appended "s" on sidebar 
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
-        {Name = "About Me", URL = "/about-me/", HasChildren = false},
+        {Name = "About Me", URL = "/about/", HasChildren = false},
         {Name = "All Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
-        {Name = "Dynamics CRM & Power Platform", URL = "/posts/dynamics-pp/", HasChildren = false}
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
