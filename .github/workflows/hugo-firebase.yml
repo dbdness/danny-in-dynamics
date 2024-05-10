@@ -36,3 +36,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DANNY_IN_DYNAMICS }}
           projectId: danny-in-dynamics
+          channelId: live
