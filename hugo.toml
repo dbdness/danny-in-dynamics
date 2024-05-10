@@ -9,12 +9,12 @@ pluralizelisttitles = false # removes the automatically appended "s" on sidebar 
 # disqusShortname = "yourDisqusShortname"
 
 [params]
-    brand = "Danny in Dynamics"                      # name of your site - appears in the sidebar
-    # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
-    brand_image = "/images/DID-logo.png"    # path to the image shown in the sidebar
-    description = "Follow me on my journey through Dynamics 365 CRM, Power Platform and beyond" # Used as default meta description if not specified in front matter
-    dark_mode = false                      # optional - defaults to false
-    # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
+    brand = "Danny in Dynamics"
+    # remote_brand_image = 'https://github.com/USERNAME.png'                                            # path to a remote file
+    brand_image = "/images/DID-logo.png"    
+    description = "Follow me on my journey through Dynamics 365 CRM, Power Platform and beyond"         # Used as default meta description if not specified in front matter
+    dark_mode = false
+    favicon = "favicon.ico"                                                                             # path to favicon (must be in /static)
 
     front_page_content = ["posts"] # Equivalent to the default value, add page bundle names to include them on the front page.
 
