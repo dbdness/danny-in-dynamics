@@ -102,6 +102,19 @@ pluralizelisttitles = false # removes the automatically appended "s" on sidebar 
                                           # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
     # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
 
+    [params.giscus]
+        repo = "dbdness/danny-in-dynamics"
+        repo_id = "R_kgDOKFMsig"
+        category = "Blog comments"
+        category_id = "DIC_kwDOKFMsis4CfhIL"
+        mapping = "pathname"
+        strict = "0"
+        reactions_enabled = "1"
+        emit_metadata = "0"
+        input_position = "top"
+        lang = "en"
+        loading = "lazy"
+
 [taxonomies]
     series = 'series'
     tags = 'tags'
